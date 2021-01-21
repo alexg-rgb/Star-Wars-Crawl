@@ -1,45 +1,41 @@
 body {
-    font-family: lorem ipsum;
-    color: blue;
+    background-image: url(https://c1.wallpaperflare.com/preview/85/553/267/stars-background-blue-photoshop.jpg);
+    color:yellow;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 70px;
+    overflow: hidden;
 }
-body {
-    background-image: url(https://image.freepik.com/vecteurs-libre/ciel-etoile-space-stars-background-paillettes-scintillantes_160081-317.jpg);
+img {
+    margin-left: 40%;
+    padding: 5px;
+    width: 300px;
 }
-body {
-    overflow: hidden
+.title {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
 }
-.introduction {
-    text-align: center;
-    margin: auto;
-    width: 50%;
-    height: 800px;
-    perspective: 400px;
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 10em;
 }
-.corpse {
-    margin: auto;
-    width: 50%;
-    height: 2000px;
-    perspective: 400px;
+.title {
+    transform: rotateX(40deg);
 }
-
-body {
-    position: relative
-    top -100px;
-    transform-origin: 50% 100%;
+.all {
+    position: relative;
+    top: -100px;
+    transform-origin: 0% 100%;
+    transform: rotateX(60deg);
+    animation: all 40s linear;
 }
-
-@keyframes body {
+@keyframes all {
     0% {
-        top: 0;
-        transform: rotatex(40deg) translateZ(0);
+        top: 50px;
         }
     100% {
         top: -6000px;
-        transform: rotatex(70de) translateZ(-2500px)
-        }
-                }
-body {
-    position: relative;
-    transform-origin: 0% 100%;
-    animation: body 160s linear
+    }
+    }
 }
