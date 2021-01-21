@@ -1,0 +1,16 @@
+body {
+    font-family: lorem ipsum;
+    color: blue;
+}
+body {
+    background-image: url(https://image.freepik.com/vecteurs-libre/ciel-etoile-space-stars-background-paillettes-scintillantes_160081-317.jpg);
+}
+.introduction {
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.corpse {
+    margin: auto;
+    width: 50%;
+}
