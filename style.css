@@ -5,12 +5,41 @@ body {
 body {
     background-image: url(https://image.freepik.com/vecteurs-libre/ciel-etoile-space-stars-background-paillettes-scintillantes_160081-317.jpg);
 }
+body {
+    overflow: hidden
+}
 .introduction {
     text-align: center;
     margin: auto;
     width: 50%;
+    height: 800px;
+    perspective: 400px;
 }
 .corpse {
     margin: auto;
     width: 50%;
+    height: 2000px;
+    perspective: 400px;
+}
+
+body {
+    position: relative
+    top -100px;
+    transform-origin: 50% 100%;
+}
+
+@keyframes body {
+    0% {
+        top: 0;
+        transform: rotatex(40deg) translateZ(0);
+        }
+    100% {
+        top: -6000px;
+        transform: rotatex(70de) translateZ(-2500px)
+        }
+                }
+body {
+    position: relative;
+    transform-origin: 0% 100%;
+    animation: body 160s linear
 }
